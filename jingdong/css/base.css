@@ -1,0 +1,110 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.al {
+    text-align: left;
+}
+
+.ar {
+    text-align: right;
+}
+
+.ac {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+.color-red {
+    color: #f10215 !important;
+}
+
+.hide {
+    display: none;
+}
+
+@font-face {
+    /* 声明字体 */
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?c324a2');
+    src: url('../fonts/icomoon.eot?c324a2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?c324a2') format('truetype'),
+        url('../fonts/icomoon.woff?c324a2') format('woff'),
+        url('../fonts/icomoon.svg?c324a2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* header部分 */
+
+
+body {
+    background-color: #f6f6f6;
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button {
+    border: 0;
+    /*取消轮廓边框*/
+    outline: none;
+
+}
+
+ul {
+    list-style: none;
+
+}

@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>仿猫眼</title>
+    <meta charset="utf-8">
+    <base target="_blank">
+    <link rel="stylesheet" type="text/css" href="b.css">
+</head>
+<body>
+        <div id="header">
+            <div id="header-inner">
+                <h1>
+                    <a href="https://maoyan.com/" class="logo"></a>
+                </h1>
+                <div id="city">
+                    <div id="city-selected">
+                        <div id="city-name">
+                        石家庄
+                        <span class="caret"></span>
+                    </div>
+                    </div>
+                </div>
+                <div id="nav">
+                    <ul id="navbar">
+                        <li>
+                        <a href="https://maoyan.com/"data-act="home-click" class="active">首页</a>
+                        </li>
+                        <li>
+                            <a href="https://maoyan.com/films" data-act="movies-click" >电影</a>
+                        </li>
+                        <li>
+                            <a href="https://maoyan.com/cinemas" data-act="cinemas-click">影院</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gewara.com/" >演出</a>
+                        </li>
+                        <li>
+                            <a href="https://maoyan.com/board" data-act="board-click">榜单</a>
+                        </li>
+                        <li>
+                            <a href="https://maoyan.com/news" data-act="hotNews-click" >热点</a>
+                        </li>
+                        <li>
+                            <a href="https://maoyan.com/edimall">商城</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="appDownload">
+                    <a href="https://maoyan.com/app">
+                        <span class="iphoneIcon"></span>
+                        <span class="appText">App下载</span>
+                        <span class="caret"></span>
+                    </a>
+                </div>
+                 <form target="_blank" class="searchForm">
+                    <input type="search" name="kw" id="search" maxlength="30" placeholder="找影视剧、影人、影院" autocomplete="off">
+                    <input type="submit" class="submit" value>
+                </form>
+                <div id="user-info">
+                    <div class="user-info-logo">
+                        <a href="https://passport.meituan.com/account/unitivelogin?service=maoyan&continue=https%3A%2F%2Fmaoyan.com%2Fpassport%2Flogin%3Fredirect%3D%252F"><img src="https://p0.meituan.net/movie/7dd82a16316ab32c8359debdb04396ef2897.png"></a>
+                        <span class="caret"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-placeholder"></div>
+        <div id="container">
+            <div class="content">
+                <div id="main">
+                    <div class="move-ready">
+                        <div class="panel">
+                            <div class="panel-header">
+                                <span class="panel-title">
+                                    <span class="textColor-red">
+                                        <h2>正在热映(7部)</h2>
+                                    </span>
+                                </span>
+                                <span class="panel-more">
+                                    <a href="https://maoyan.com/films?showType=1" class="textColor-red">
+                                        <span>全部</span>
+                                    </a>
+                                    <span class="logo1"></span>
+                                </span> 
+                            </div>
+                            <div class="panel-content">
+                                <dl class="movieList">
+                                    <dd>
+                                        <div class="movieItem">
+                                            <a href="https://maoyan.com/films/1218273">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/movie/967b253953bc7e660cfadbf9d78f67b62852693.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">9.</i>
+                                                                <i class="fraction">5</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="误杀">误杀</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-sale">
+                                                <a href="https://maoyan.com/cinemas?movieId=1218273" class="sale">购 票</a>
+                                            </div>
+                                            <div class="movie-ver">
+                                            <i class="imax2D"></i>
+                                        </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1190122">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/a3d6ca3bdd5b0ddd7016acff9a9f2f2e2805813.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">9.</i>
+                                                                <i class="fraction">4</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="叶问4：完结篇">叶问4：完结篇</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-sale">
+                                                <a href="https://maoyan.com/cinemas?movieId=1190122" class="sale">购 票</a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1279731">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/moviemachine/36eda496688542263d9a0f02ac728327823369.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">8.</i>
+                                                                <i class="fraction">9</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="宠爱">宠爱</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-sale">
+                                                <a href="https://maoyan.com/cinemas?movieId=1279731" class="sale">购 票</a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1214142">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/moviemachine/979531e95cace9abb4c6b74c6a0fdd486176654.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">9.</i>
+                                                                <i class="fraction">2</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="变身特工">变身特工</div>
+                                                        </div>
+                                                    </div>
+                                                    <div></div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-sale">
+                                                <a href="https://maoyan.com/cinemas?movieId=1214142" class="sale">购 票</a>
+                                            </div>
+                                            <div class="movie-ver">
+                                                <i class="imax3D"></i>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1281095">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/37e835fdaf68e48dd002b6757374251d6793835.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">9.</i>
+                                                                <i class="fraction">2</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="紫罗兰永恒花园 外传：永远与自动手记人偶">紫罗兰永恒花园 外传：永远与自动手记人偶</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-sale">
+                                                <a href="https://maoyan.com/cinemas?movieId=1281095" class="sale">购 票</a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1220983">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/584224ba10e6a450ad8d8ef35e22b8cd369031.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">8.</i>
+                                                                <i class="fraction">9</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="动物特工局">动物特工局</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-sale">
+                                                <a href="https://maoyan.com/cinemas?movieId=1220983" class="sale">购 票</a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1302015">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/4bf6de3489285d56a42044cd36791fea4233338.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">8.</i>
+                                                                <i class="fraction">2</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="士兵顺溜:兵王争锋">士兵顺溜:兵王争锋</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-sale">
+                                                <a href="https://maoyan.com/cinemas?movieId=1302015" class="sale">购 票</a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="panel-header">
+                                <span class="panel-title">
+                                    <span class="textColor-blue">
+                                        <h2>即将上映(112部)</h2>
+                                    </span>
+                                </span>
+                                <span class="panel-more">
+                                    <a href="https://maoyan.com/films?showType=1" class="textColor-blue">
+                                        <span>全部</span>
+                                    </a>
+                                    <span class="logo2"></span>
+                                </span> 
+                            </div>
+                            <div class="panel-content">
+                                <dl class="movieList">
+                                    <dd>
+                                        <div class="movieItem">
+                                            <a href="https://maoyan.com/films/342867">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/d2a9eefa21c6031a9ea51f08872aff8f17244972.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="源·彩虹">源·彩虹</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                             <div class="movie-ver">
+                                                <i class="imax3D"></i>
+                                            </div>
+                                            <div class="movie-datail movie-wish" >
+                                                <span class="people">54072人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                        </div>
+                                        <div class="datyTime">2月7日上映</div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/248908">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/784ddad44b846d010aa51f728ed62c2f586231.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="直立象传说">直立象传说</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="people">
+                                                <span>20000人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                            <div class="datyTime">
+                                                2月7日上映
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1298349">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/02966adeb1d52f089927c9664a590b442084261.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="贝肯熊2:金牌特工">贝肯熊2:金牌特工</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="people">
+                                                <span>20000人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                            <div class="datyTime">
+                                                2月7日上映
+                                            </div>
+                                            <div></div>
+                                            <div class="movie-ver">
+                                                <i class="imax3D"></i>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1302405">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/movie/81fe2197ef930c79624a28cc76c423835264620.png@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="小公主艾薇拉与神秘王国2">小公主艾薇拉与神秘王国2</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="people">
+                                                <span>20000人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                            <div class="datyTime">
+                                                2月7日上映
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1302281">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/moviemachine/1d2b4985d0187b437d41a73994ba2e191607376.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="奇妙王国之魔法奇缘">奇妙王国之魔法奇缘</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="people">
+                                                <span>20000人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                            <div class="datyTime">
+                                                2月7日上映
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1283507">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/moviemachine/5d83f339e42875108a2c0f39580c8fdb118115.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="半条被子">半条被子</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="people">
+                                                <span>20000人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                            <div class="datyTime">
+                                                2月7日上映
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/1218157">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/moviemachine/cf4214c958bf8ac49fd7406016ecdee23939638.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="乔乔的异想世界">乔乔的异想世界</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="people">
+                                                <span>20000人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                            <div class="datyTime">
+                                                2月7日上映
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/489894">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/57670d40ec61db53962f61603e5b360b770739.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieTitle" title="我在时间尽头等你">我在时间尽头等你</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="people">
+                                                <span>20000人想看</span>
+                                            </div>
+                                            <div class="shangying">
+                                                <a class="yugao">预告片</a>
+                                                <a class="yushou">预售</a>
+                                            </div>
+                                            <div class="datyTime">
+                                                2月7日上映
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                         <div class="panel">
+                            <div class="panel-header">
+                                <span class="panel-title">
+                                    <span class="textColor-red">
+                                        <h2>热播电影</h2>
+                                    </span>
+                                </span>
+                                <span class="panel-subtitle">
+                                    <a href="https://maoyan.com/films?isPlay=1&catId=3">爱情</a>
+                                </span>
+                                <span class="panel-subtitle">
+                                    <a href="https://maoyan.com/films?isPlay=1&catId=2">喜剧</a>
+                                </span>
+                                <span class="panel-subtitle">
+                                    <a href="https://maoyan.com/films?isPlay=1&catId=5">动作</a>
+                                </span>
+                                <span class="panel-subtitle">
+                                    <a href="https://maoyan.com/films?isPlay=1&catId=5https://maoyan.com/films?isPlay=1&catId=6">恐怖</a>
+                                </span>
+                                <span class="panel-subtitle">
+                                    <a href="https://maoyan.com/films?isPlay=1&catId=4">动画</a>
+                                </span>
+                                <span class="panel-more">
+                                    <a href="https://maoyan.com/films?showType=1" class="textColor-red">
+                                        <span>全部</span>
+                                    </a>
+                                    <span class="logo1"></span>
+                                </span> 
+                            </div>
+                            <div class="panel-content">
+                                <dl class="movieList">
+                                    <dd>
+                                        <div class="movieItem">
+                                            <a href="https://maoyan.com/films/247300">
+                                                <div class="moviePoster big">
+                                                    <img src="https://p1.meituan.net/movie/551ddfa39aec08fcbd976308e7eca94d59535.jpg@350w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">9.</i>
+                                                                <i class="fraction">0</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="唐人街探案">唐人街探案</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/246577">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/movie/fc9a5e0297340745571f4c1bd4e0b9da415941.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">8.</i>
+                                                                <i class="fraction">4</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="港囧">港囧</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-ver">
+                                            <i class="imax2D"></i>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/245848">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/764ec55d9b3779b2e8f09f7b08c41e9e4725708.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">8.</i>
+                                                                <i class="fraction">3</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="流感">流感</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/210">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/movie/bba064504bb7a8c6728993da9795e6d4376261.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">8.</i>
+                                                                <i class="fraction">8</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="人在囧途">人在囧途</div>
+                                                        </div>
+                                                    </div>
+                                                    <div></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/246397">
+                                                <div class="moviePoster">
+                                                    <img src="https://p0.meituan.net/movie/07b4127cff2289cd91b65628f4417ac37666558.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">7.</i>
+                                                                <i class="fraction">2</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="西游记之大圣归来">西游记之大圣归来</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-ver">
+                                                <i class="imax3D"></i>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/78304">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/movie/79357c0fdcbad30f9cc495949bd8b644376363.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">9.</i>
+                                                                <i class="fraction">3</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="战狼">战狼</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div class="movie-ver">
+                                                <i class="imax3D"></i>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                    <dd>
+                                        <div class="moveItem">
+                                            <a href="https://maoyan.com/films/78612">
+                                                <div class="moviePoster">
+                                                    <img src="https://p1.meituan.net/movie/61611d919474fbb7a5d51b0e3b3d8612463324.jpg@160w_220h_1e_1c">
+                                                    <div class="movie-overplay">
+                                                        <div class="movieInfo">
+                                                            <div class="movieScore">
+                                                                <i class="integer">9.</i>
+                                                                <i class="fraction">0</i>
+                                                            </div>
+                                                            <div class="movieTitle" title="心花路放">心花路放</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="aside">
+                    <div id="ranking-box-wrapper">
+                        <div class="panel">
+                            <div class="panel-header">
+                                <span class="panel-title">
+                                    <span class="textColor-red">
+                                        <h2>今日票房</h2>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="panel-content">
+                                <ul class="ranking-wrapper ranking-box-wrapper">
+                                    <li class="ranking-item ranking-index-1 ranking-top">
+                                        <a href="https://maoyan.com/films/1218273">
+                                            <div class="ranking-top-left">
+                                                <i class="ranking-top-icon"></i>
+                                                <img src="https://p1.meituan.net/movie/3b53e86bdaeda865196600eba2cadeee1718081.jpg@120w_80h_1e_1c" class="ranking-img">
+                                            </div>
+                                            <div class="ranking-top-right">
+                                                <div class="ranking-top-right-main">
+                                                    <span class="ranking-top-movieName">误杀</span>
+                                                    <p class="ranking-top-movieWish">
+                                                        <span class="stoneFont">2.26万</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-2">
+                                        <a href="https://maoyan.com/films/1190122">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">2</i>
+                                                <span class="ranking-movie-name">叶问4:完结篇</span>
+                                                <span class="ranking-num-info">0.55万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-3">
+                                         <a href="https://maoyan.com/films/1206381">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">3</i>
+                                                <span class="ranking-movie-name">灭绝</span>
+                                                <span class="ranking-num-info">0.54万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-4">
+                                         <a href="https://maoyan.com/films/1302015">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">4</i>
+                                                <span class="ranking-movie-name">士兵顺溜:兵王争锋</span>
+                                                <span class="ranking-num-info">0.31万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-5">
+                                         <a href="https://maoyan.com/films/1284594">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">5</i>
+                                                <span class="ranking-movie-name">我为你牺牲</span>
+                                                <span class="ranking-num-info">0.17万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-6">
+                                         <a href="https://maoyan.com/films/1277527">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">6</i>
+                                                <span class="ranking-movie-name">那时风华</span>
+                                                <span class="ranking-num-info">0.09万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-7">
+                                         <a href="https://maoyan.com/films/1277939">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">7</i>
+                                                <span class="ranking-movie-name">我和我的祖国</span>
+                                                <span class="ranking-num-info">0.03万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-8">
+                                         <a href="https://maoyan.com/films/1279731">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">8</i>
+                                                <span class="ranking-movie-name">宠爱</span>
+                                                <span class="ranking-num-info">0.3万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-9">
+                                         <a href="https://maoyan.com/films/1220983">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">9</i>
+                                                <span class="ranking-movie-name">动物特工局</span>
+                                                <span class="ranking-num-info">0.03万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-10">
+                                         <a href="https://maoyan.com/films/1281095">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">10</i>
+                                                <span class="ranking-movie-name">紫罗兰永恒花园 外传：永远与自动手记人偶</span>
+                                                <span class="ranking-num-info">0.03万</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-total-wrapper">
+                        <h3>今日大盘</h3>
+                        <div>
+                            <p>
+                                <span class="num">4.1万</span>
+                                <a class="more" href="https://piaofang.maoyan.com/dashboard">
+                                    查看更多
+                                    <span class="panel-arrow panel-arrow-red"></span>
+                                </a>
+                            </p>
+                            <p class="metaInfo">
+                                北京时间 10:25:32
+                                <span class="pull-right">
+                                    猫眼专业版实时票房数据
+                                </span>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="most-expect-wrapper">
+                        <div class="panel-header">
+                            <span class="panel-title">
+                                <span class="textColor_orange">
+                                    <h2>最受期待</h2>
+                                </span>
+                            </span>
+                            <span class="panel-more">
+                                <a class="textColor_orange" href="https://maoyan.com/board/6">
+                                    <span>查看完整榜单</span>
+                                </a>
+                                <span class="panel-arrow panel-arrow-orange"></span>
+                            </span>
+                        </div>
+                        <div class="panel-content">
+                                <ul class="ranking-wrapper ranking-mostExpect">
+                                    <li class="ranking-item ranking-index-1 ranking-top">
+                                        <a href="https://maoyan.com/films/1211269">
+                                            <div class="ranking-top-left">
+                                                <i class="ranking-top-icon"></i>
+                                                <img src="https://p0.meituan.net/movie/3dc44919f0917b5823c867813f29fba42625689.jpg@140w_194h_1e_1c" class="ranking-img">
+                                            </div>
+                                            <div class="ranking-top-right">
+                                                <div class="ranking-top-right-main">
+                                                    <span class="ranking-top-movieName">姜子牙</span>
+                                                    <p class="ranking-release-time">上映时间:2020</p>
+                                                    <p class="ranking-top-movieWish">
+                                                        <span class="stoneFont">824181人想看</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-2">
+                                        <a href="https://maoyan.com/films/1250696">
+                                            <i class="ranking-index">2</i>
+                                            <span class="img-link">
+                                                <img class="ranking-img default-img"
+                                            src="https://p0.meituan.net/movie/7c7bdad0f0bc6ff61903805a7c5ae216437692.jpg@170w_118h_1e_1c">   
+                                            </span>
+                                            <div class="name-link ranking-movie-name">囧妈</div>
+                                            <span class="ranking-num-info">
+                                                <span class="stoneFont">
+                                                    505215人想看
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-3">
+                                         <a href="https://maoyan.com/films/1217123">
+                                            <i class="ranking-index">3</i>
+                                            <span class="img-link">
+                                                <img class="ranking-img default-img"
+                                            src="https://p0.meituan.net/movie/5035d06e543f4f985cdf231b78d27a24704155.jpg@170w_118h_1e_1c">   
+                                            </span>
+                                            <div class="name-link ranking-movie-name">夺冠</div>
+                                            <span class="ranking-num-info">
+                                                <span class="stoneFont">
+                                                    351244人想看
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-4">
+                                         <a href="https://maoyan.com/films/461076">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">4</i>
+                                                <span class="ranking-movie-name">紧急救援</span>
+                                                <span class="ranking-num-info">413703人想看</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-5">
+                                         <a href="https://maoyan.com/films/1298938">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">5</i>
+                                                <span class="ranking-movie-name">熊出没·狂野大陆</span>
+                                                <span class="ranking-num-info">163523人想看</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-6">
+                                         <a href="https://maoyan.com/films/1216053">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">6</i>
+                                                <span class="ranking-movie-name">急先锋</span>
+                                                <span class="ranking-num-info">171406人想看</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-7">
+                                         <a href="https://maoyan.com/films/489894">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">7</i>
+                                                <span class="ranking-movie-name">我在时间尽头等你</span>
+                                                <span class="ranking-num-info">63743人想看</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-8">
+                                         <a href="https://maoyan.com/films/342485">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">8</i>
+                                                <span class="ranking-movie-name">抵达之谜</span>
+                                                <span class="ranking-num-info">35975人想看</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-9">
+                                         <a href="https://maoyan.com/films/1230199">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">9</i>
+                                                <span class="ranking-movie-name">小妇人</span>
+                                                <span class="ranking-num-info">45181人想看</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-10">
+                                         <a href="https://maoyan.com/films/1286060">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">10</i>
+                                                <span class="ranking-movie-name">玩命三日</span>
+                                                <span class="ranking-num-info">28861人想看</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="top100-wrapper">
+                        <div class="panel">
+                            <div class="panel-header">
+                                <span class="panel-title">
+                                    <span class="textColor_orange">
+                                        <h2>TOOP100</h2>
+                                    </span>
+                                    <span class="panel-more">
+                                <a class="textColor_orange" href="https://maoyan.com/board/4">
+                                    <span>查看完整榜单</span>
+                                </a>
+                                <span class="panel-arrow panel-arrow-orange"></span>
+                            </span>
+                                </span>
+                            </div>
+                            <div class="panel-content">
+                                <ul class="ranking-wrapper ranking-box-wrapper">
+                                    <li class="ranking-item ranking-index-1 ranking-top">
+                                        <a href="https://maoyan.com/films/1203">
+                                            <div class="ranking-top-left">
+                                                <i class="ranking-top-icon"></i>
+                                                <img src="https://p0.meituan.net/movie/45be438368bb291e501dc523092f0ac8193424.jpg@120w_80h_1e_1c" class="ranking-img">
+                                            </div>
+                                            <div class="ranking-top-right">
+                                                <div class="ranking-top-right-main">
+                                                    <span class="ranking-top-movieName">霸王别姬</span>
+                                                    <p class="ranking-top-movieWish">
+                                                        <span class="stoneFont">9.5分</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-2">
+                                        <a href="https://maoyan.com/films/1297">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">2</i>
+                                                <span class="ranking-movie-name">肖申克的救赎</span>
+                                                <span class="ranking-num-info">9.5分</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-3">
+                                         <a href="https://maoyan.com/films/4055">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">3</i>
+                                                <span class="ranking-movie-name">这个杀手不太冷</span>
+                                                <span class="ranking-num-info">9.5分</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-4">
+                                         <a href="https://maoyan.com/films/2641">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">4</i>
+                                                <span class="ranking-movie-name">罗马假日</span>
+                                                <span class="ranking-num-info">9.0</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-5">
+                                         <a href="https://maoyan.com/films/267">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">5</i>
+                                                <span class="ranking-movie-name">泰坦尼克号</span>
+                                                <span class="ranking-num-info">9.4分</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-6">
+                                         <a href="https://maoyan.com/films/837">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">6</i>
+                                                <span class="ranking-movie-name">唐伯虎点秋香</span>
+                                                <span class="ranking-num-info">9.1</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-7">
+                                         <a href="https://maoyan.com/films/7431">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">7</i>
+                                                <span class="ranking-movie-name">乱世佳人</span>
+                                                <span class="ranking-num-info">9.1分</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-8">
+                                         <a href="https://maoyan.com/films/2760">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">8</i>
+                                                <span class="ranking-movie-name">魂断蓝桥</span>
+                                                <span class="ranking-num-info">9.2分</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-9">
+                                         <a href="https://maoyan.com/films/3667">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">9</i>
+                                                <span class="ranking-movie-name">辛德勒的名单</span>
+                                                <span class="ranking-num-info">9.2分</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-10">
+                                         <a href="https://maoyan.com/films/1228">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">10</i>
+                                                <span class="ranking-movie-name">天空之城</span>
+                                                <span class="ranking-num-info">9.0分</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-container">
+                        <div class="panel">
+                            <div class="panel-header">
+                                <span class="panel-title">
+                                    <span class="textColor-red">
+                                        <h2>热门影人</h2>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="panel-content">
+                                <ul class="ranking-wrapper ranking-box-wrapper">
+                                    <li class="ranking-item ranking-index-1 ranking-top">
+                                        <a href="https://maoyan.com/films/celebrity/1035202">
+                                            <div class="ranking-top-left">
+                                                <i class="ranking-top-icon">1</i>
+                                                <img src="https://p0.meituan.net/moviemachine/912ae874e4246ffb0e9e89af7a710df0151190.jpg@120w_72h_1e_1c">
+                                            </div>
+                                            <div class="ranking-top-right">
+                                                <div class="ranking-top-right-main">
+                                                    <span class="ranking-people-name">钟楚曦</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-2">
+                                        <a href="https://maoyan.com/films/celebrity/28950">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">2</i>
+                                                <span class="ranking-people-name">钟汉良</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-3">
+                                         <a href="https://maoyan.com/films/celebrity/29200">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">3</i>
+                                                <span class="ranking-people-name">张子枫</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-4">
+                                         <a href="https://maoyan.com/films/celebrity/2730">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">4</i>
+                                                <span class="ranking-people-name">谭卓</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-5">
+                                         <a href="https://maoyan.com/films/celebrity/28936">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">5</i>
+                                                <span class="ranking-people-name">甄子丹</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-6">
+                                         <a href="https://maoyan.com/films/celebrity/29201">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">6</i>
+                                                <span class="ranking-people-name">黄圣依</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-7">
+                                         <a href="https://maoyan.com/films/celebrity/354839">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">7</i>
+                                                <span class="ranking-people-name">魏大勋</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-8">
+                                         <a href="https://maoyan.com/films/celebrity/2253567">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">8</i>
+                                                <span class="ranking-people-name">奥卡菲娜</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-9">
+                                         <a href="https://maoyan.com/films/celebrity/28383">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">9</i>
+                                                <span class="ranking-people-name">道恩·强森</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-10">
+                                         <a href="https://maoyan.com/films/celebrity/2749">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">10</i>
+                                                <span class="ranking-people-name">陈伟霆</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="popular-container">
+                        <div class="panel">
+                            <div class="panel-header">
+                                <span class="panel-title">
+                                    <span class="textColor-red">
+                                        <h2>娱乐热点</h2>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="panel-content">
+                                <ul class="ranking-wrapper ranking-box-wrapper">
+                                    <li class="ranking-item ranking-index-1 ranking-top">
+                                        <a href="https://maoyan.com/films/news/585618">
+                                            <div class="ranking-top-left">
+                                                <i class="ranking-top-icon">1</i>
+                                                <img src="https://p0.meituan.net/2000.2000/movie/780874b1fa7d1d0c3a54000c36f4d4e31907452.jpg@120w_72h_1e_1c">
+                                            </div>
+                                            <div class="ranking-top-right">
+                                                <div class="ranking-top-right-main">
+                                                    <span class="ranking-people-name">《大主宰》定档曝奇幻版预告，王源欧阳娜娜共赴学院季</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-2">
+                                        <a href="https://maoyan.com/films/news/575757">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">2</i>
+                                                <span class="ranking-people-name">《危机先生》暂停拍摄，黄晓明携主创录制暖心视频致敬医护人员</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-3">
+                                         <a href="https://maoyan.com/films/news/544290">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">3</i>
+                                                <span class="ranking-people-name">《囧妈》携手毛不易发布片尾曲MV，徐峥开启真实家庭囧途</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-4">
+                                         <a href="https://maoyan.com/films/news/590589">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">4</i>
+                                                <span class="ranking-people-name">奥斯卡增加缅怀科比环节，其主创动画曾获奥斯卡最佳动画奖</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-5">
+                                         <a href="https://maoyan.com/films/news/585713">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">5</i>
+                                                <span class="ranking-people-name">第92届奥斯卡提名者合影公开，大腕悉数到场，午宴地点打破传统</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-6">
+                                         <a href="https://maoyan.com/films/news/539524">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">6</i>
+                                                <span class="ranking-people-name">第70届柏林电影节公布入围名单，中国电影战果赫赫令人欣慰</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-7">
+                                         <a href="https://maoyan.com/films/news/539523">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">7</i>
+                                                <span class="ranking-people-name">《速度与激情9》发布最新海报，多米尼克回归家庭将面临更大考验</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-8">
+                                         <a href="https://maoyan.com/films/news/544434">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">8</i>
+                                                <span class="ranking-people-name">明星体重大曝光，李现把秤“踩坏”，杨紫的反应太真实</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-9">
+                                         <a href="https://maoyan.com/films/news/585621">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">9</i>
+                                                <span class="ranking-people-name">郭碧婷向佐回娘家遭在线催生，向佐想要双胞胎，郭碧婷的回答亮了/span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="ranking-item ranking-index-10">
+                                         <a href="https://maoyan.com/films/news/539403">
+                                            <span class="normal-link">
+                                                <i class="ranking-index">10</i>
+                                                <span class="ranking-people-name">江宏杰晒新年全家福，福原爱素颜出镜，一家四口好像复制粘贴</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+             <p class="friendly-links1">
+                关于猫眼：
+                <a href="http://ir.maoyan.com/s/index.php#pageScroll0">关于我们</a>
+                <span></span>
+                <a href="http://ir.maoyan.com/s/index.php#pageScroll1">管理团队</a>
+                <span></span>
+                <a href="http://ir.maoyan.com/s/index.php#pageScroll2">投资者关系</a>
+                <span></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                友情链接：
+                <a href="https://www.meituan.com/">美团网</a>
+                <span></span>
+                <a href="http://www.gewara.com/">格瓦拉</a>
+                <span></span>
+                <a href="http://i.meituan.com/client?utm_source=wwwmaoyan">美团下载</a>
+                <span></span>
+                <a href="https://www.huanxi.com/player.shtml">欢喜首映</a>
+            </p>
+            <p>商务合作邮箱：v@maoyan.com
+                客服电话：10105335
+                违法和不良信息举报电话：4006018900</p>
+            <p>用户投诉邮箱：tousujubao@meituan.com
+                舞弊线索举报邮箱：wubijubao@maoyan.com</p>
+            <p class="friendly-links"  credentials>
+                <a href="https://maoyan.com/about/licence/1">中华人民共和国增值电信业务经营许可证 京B2-20190350</a>
+                <span></span>
+                <a href="https://maoyan.com/about/licence/4">营业性演出许可证 京演（机构）（2019）4094号</a>
+            </p>
+            <p class="friendly-links"  credentials>
+                <a href="https://maoyan.com/about/licence/3">广播电视节目制作经营许可证 （京）字第08478号</a>
+                <span></span>
+                <a href="https://maoyan.com/about/licence/2">网络文化经营许可证 京网文（2019）3837-369号 </a>
+            </p>
+            <p class="friendly-links"  credentials>
+                <a href="https://maoyan.com/rules/agreement">猫眼用户服务协议 </a>
+                <span></span>
+                <a href="https://maoyan.com/rules/rule">猫眼平台交易规则总则 </a>
+                <span></span>
+                <a href="https://maoyan.com/rules/privacy">隐私政策</a>
+            </p>
+            <p class="friendly-links"  credentials>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102003232">京公网安备
+          11010102003232号</a>
+                <span></span>
+                <a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action;jsessionid=iaXhM2Eu-hYu_RA6qXNy1sOoTtLE4bukO4iF0jZFDpnFO-A9TYLo!20875049">京ICP备16022489号</a>
+            </p>
+            <p>北京猫眼文化传媒有限公司</p>
+            <p>
+                ©2016
+                猫眼电影 maoyan.com
+            </p>
+        <div class="certificale"><a href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/350CF8BCA8416C4FE0530140A8C0957E"><img src="http://p0.meituan.net/moviemachine/e54374ccf134d1f7b2c5b075a74fca525326.png"></a>
+            <a href="https://maoyan.com/about/licence/5"><img src="http://p1.meituan.net/moviemachine/805f605d5cf1b1a02a4e3a5e29df003b8376.png"></a></div>
+    </div>
+    </div>
+</body>
+</html>

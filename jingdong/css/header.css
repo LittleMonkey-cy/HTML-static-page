@@ -1,0 +1,285 @@
+.topBanner {
+    background-color: #8a26c6;
+}
+
+/* 顶部搜索栏start */
+.nav {
+    width: 100%;
+    display: none;
+    background-color: #fff;
+    transition: all 10s;
+    border-bottom: 2px solid #f10215;
+    position: relative;
+}
+
+.search_logo {
+    display: block;
+    position: absolute;
+    left: 200px;
+    top: 4px;
+    width: 125px;
+    height: 60px;
+    padding-left: 40px;
+}
+
+.search_logo_lk {
+    display: block;
+    width: 125px;
+    height: 60px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.input-1 {
+    width: 550px;
+    height: 35px;
+    top: 6px;
+    position: absolute;
+    left: 450px !important;
+
+}
+
+.shopCar-top {
+    position: absolute;
+    top: 25px;
+    right: 200px;
+}
+
+/* 顶部搜索栏end */
+.topbanner {
+    display: block;
+    width: 1210px;
+    height: 80px;
+    background: url(../images/topbanner.jpg) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    background: url(../images/close.png) no-repeat 0 5px;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    cursor: pointer;
+}
+
+.close:hover {
+    background: url(../images/close.png) no-repeat 0 -15px;
+    cursor: pointer;
+}
+
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    color: #999;
+}
+
+.shortcut ul:nth-child(1) {
+    width: 60px;
+}
+
+.shortcut ul:nth-child(2) {
+    width: 800px;
+}
+
+.city {
+    margin-left: 200px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.shortcut i {
+    font-family: "icomoon";
+    font-style: normal;
+    color: #666;
+
+}
+
+/* 小数线 */
+.space {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 10px 0;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone img {
+    position: absolute;
+    left: -3px;
+    top: 24px;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+/* 快速导航栏结束 */
+/* 中间部分开始 */
+.first {
+    background-color: #fff;
+}
+
+.middle {
+    height: 140px;
+    position: relative;
+    border-bottom: 1px solid #dadada;
+}
+
+.middle .logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    /* box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.middle .logo a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+}
+
+.middle .logo a:hover {
+    display: block;
+    width: 190px;
+    height: 100px;
+    background: url(../images/logo.gif) no-repeat;
+    background-size: contain;
+}
+
+/* 搜索框 */
+.form {
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    left: 260px;
+}
+
+.form input {
+    width: 498px;
+    height: 40px;
+    border: 2px solid #f10215;
+    font-size: 14px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 50px;
+    height: 40px;
+    background-color: #f10215;
+}
+
+.form i {
+    font-family: "icomoon";
+    font-style: normal;
+    color: #fff;
+}
+
+/* 购物车 */
+
+.shopCar,
+.shopCar-top {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 25px;
+    right: 180px;
+    background-color: #fff;
+    text-align: center;
+    color: #f10215;
+}
+
+.shopCar {
+    position: absolute;
+    right: 240px;
+}
+
+.shopCar-top {
+    position: absolute;
+    top: 25px;
+    right: 380px;
+}
+
+.shopCar i {
+    font-family: "icomoon";
+    margin-right: 5px;
+    font-style: normal;
+}
+
+.shopCar span {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    background-color: #f10215;
+    border-radius: 50%;
+    /* 加了绝对定位、固定定位、浮动的行内元素，可以不用转换，直接给宽度和高度 */
+    position: absolute;
+    left: 30px;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* 关键词部分 */
+.hotwords {
+    position: absolute;
+    top: 68px;
+    left: 250px;
+}
+
+.hotwords a {
+    margin-left: 10px;
+}
+
+/* 小导航模块 */
+.navitems {
+    /* width: 900px; */
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 190px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+.navitems li {
+    float: left;
+    margin-left: 20px;
+}
+
+.navitems li a {
+    font-size: 16px;
+    /* 字体宽度尽量写数字，不加单位 */
+    font-weight: 700;
+    color: #555;
+}
+
+/* 尖货部分 */
+.free {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.free a {
+    display: block;
+    width: 140px;
+    height: 44px;
+    background: url(../images/free.jpg) no-repeat;
+    background-size: contain;
+}
